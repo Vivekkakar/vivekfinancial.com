@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Vivek Financial Focus Limited — Integrity in Action. Trust Across Generations." />
+  <title>Vivek Financial Focus Limited</title>
+
+  <!-- Typography: Cormorant Garamond + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Vivek Financial Focus Limited home">
+        <img
+          class="brand__mark"
+          src="https://www.genspark.ai/api/files/s/mjg8uMMw"
+          alt="Vivek Financial Focus Limited logo"
+        />
+        <span class="brand__text">VIVEK FINANCIAL FOCUS LIMITED</span>
+      </a>
+
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Open menu</span>
+        <span class="menu-btn__bars" aria-hidden="true"></span>
+      </button>
+
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#viveka">Viveka</a>
+        <a href="#sadhana">Sadhana</a>
+        <a href="#dharma">Dharma</a>
+        <a href="#karma">Viveka Audit</a>
+        <a href="#nyasa">Nyasa</a>
+        <a class="nav__btn nav__btn--ghost" href="#" aria-label="Client Login (placeholder)">Client Login</a>
+        <a class="nav__btn nav__btn--primary" href="#satya">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1) Prarambh — Hero -->
+    <section class="section hero" id="prarambh" aria-label="Prarambh (Hero)">
+      <div class="container hero__inner reveal">
+        <div class="hero__line" aria-hidden="true"></div>
+
+        <h1 class="h1">Integrity in Action.<br>Trust Across Generations.</h1>
+        <p class="subhead">A relationship-first brokerage since 1995.</p>
+
+        <p class="hook">
+          You aren’t looking for another app to trade on; you are looking for a partner to think with.
+          We believe that wealth is not just about the numbers you chase, but the discipline you keep.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="https://wa.me/" target="_blank" rel="noopener">Speak with us on WhatsApp</a>
+          <a class="btn btn--secondary" href="#satya">Request a Callback</a>
+        </div>
+
+        <p class="micro muted">No stock photos. Calm, precise vectors. A serious investor’s landing page.</p>
+      </div>
+    </section>
+
+    <!-- 2) Viveka — Prism SVG -->
+    <section class="section" id="viveka" aria-label="Viveka (Discernment)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Viveka — Discernment</span>
+          <h2 class="h2">Filtering the noise into one steady line.</h2>
+        </header>
+
+        <div class="grid grid--2">
+          <div class="copy">
+            <p>
+              The market environment often steers attention toward narratives of quick gains.
+              This noise leads to impulsive decisions and unnecessary losses.
+            </p>
+            <p>
+              We help you resist peer pressure and desist from speculation. Sustainable growth only becomes a reality when
+              you learn to act responsibly and align your decisions with your true risk-bearing capacity.
+            </p>
+          </div>
+
+          <div class="card card--visual" aria-hidden="true">
+            <!-- Prism: chaotic lines enter; one steady exits -->
+            <svg class="svg prism" viewBox="0 0 560 260" role="img">
+              <path class="prism__chaos" d="M30 60 C150 10, 180 110, 260 70" />
+              <path class="prism__chaos" d="M30 125 C145 95, 185 165, 260 125" />
+              <path class="prism__chaos" d="M30 190 C160 245, 190 145, 260 175" />
+
+              <polygon class="prism__shape" points="280,50 370,130 280,210 200,130" />
+
+              <path class="prism__steady" d="M370 130 C420 130, 470 130, 530 130" />
+              <circle class="prism__dot" cx="530" cy="130" r="4"></circle>
+            </svg>
+
+            <div class="caption">
+              Chaotic narratives → disciplined decision-making.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3) Achala — Pillar SVG -->
+    <section class="section section--alt" id="achala" aria-label="Achala (Steadfast)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Achala — Steadfast</span>
+          <h2 class="h2">Resilience, by design—not by slogan.</h2>
+        </header>
+
+        <div class="grid grid--2 grid--reverse">
+          <div class="card card--visual" aria-hidden="true">
+            <svg class="svg pillar" viewBox="0 0 240 260" role="img">
+              <rect class="pillar__col" x="98" y="28" rx="10" ry="10" width="44" height="190"></rect>
+              <rect class="pillar__base" x="70" y="218" rx="10" ry="10" width="100" height="18"></rect>
+
+              <!-- subtle flow lines -->
+              <path class="pillar__flow" d="M18 72 C60 48, 92 94, 140 68 C172 50, 196 74, 222 62" />
+              <path class="pillar__flow" d="M18 120 C72 96, 98 144, 142 122 C176 104, 196 130, 222 116" />
+              <path class="pillar__flow" d="M18 168 C66 150, 106 194, 150 172 C182 156, 196 182, 222 168" />
+            </svg>
+            <div class="caption">A steady pillar while the environment moves.</div>
+          </div>
+
+          <div class="copy">
+            <p>
+              Resilience is not a promise—it is a structure. We choose an operating model that preserves attention, judgement,
+              and response time when markets get noisy.
+            </p>
+
+            <div class="callout">
+              <h3 class="h3">Client-to-advisor ratio</h3>
+              <p class="muted">
+                We deliberately limit scale so that advice remains specific, emotionally accountable, and aligned with your true
+                risk-bearing capacity—not with volume targets.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4) Sadhana — 4 service cards -->
+    <section class="section" id="sadhana" aria-label="Sadhana (Services)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Sadhana — Services</span>
+          <h2 class="h2">Four pillars of execution—kept sharp and simple.</h2>
+        </header>
+
+        <div class="services">
+          <article class="service">
+            <h3 class="h3">Equity</h3>
+            <p class="muted">Not just a platform, but a portal for long-term business ownership</p>
+          </article>
+
+          <article class="service">
+            <h3 class="h3">Depository</h3>
+            <p class="muted">Seamless, compliant safekeeping for your family's legacy</p>
+          </article>
+
+          <article class="service">
+            <h3 class="h3">Mutual Funds</h3>
+            <p class="muted">Scientific selection filtered through your specific risk capacity</p>
+          </article>
+
+          <article class="service">
+            <h3 class="h3">Fixed Income</h3>
+            <p class="muted">The Achala of your portfolio — stabilizing returns and preserving capital</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) Dharma — Vertical timeline -->
+    <section class="section section--alt" id="dharma" aria-label="Dharma (Legacy)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Dharma — Legacy</span>
+          <h2 class="h2">A long record of duty, not marketing.</h2>
+        </header>
+
+        <p class="muted">
+          For over 25 years, we worked alongside the late <strong>Dr. L. C. Gupta</strong> (former SEBI Board Member)
+          to build resilient financial systems.
+        </p>
+
+        <div class="timeline" role="list">
+          <div class="timeline__item" role="listitem">
+            <h3 class="h3">Pioneering Protection</h3>
+            <p class="muted">We adopted KYC and client order tagging years before they were industry mandates.</p>
+          </div>
+
+          <div class="timeline__item" role="listitem">
+            <h3 class="h3">Validated Research</h3>
+            <p class="muted">Out of SCMRD’s 42 publications, 9 were in collaboration with us.</p>
+          </div>
+
+          <div class="timeline__item" role="listitem">
+            <h3 class="h3">A Clean Record</h3>
+            <p class="muted">Over three decades of client service free of complaints.</p>
+          </div>
+        </div>
+
+        <blockquote class="quote">
+          “Integrity is not a line in a brochure—it is the discipline to do the right thing when nobody is watching.”
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- 6) Karma — Viveka Audit (5 questions, multi-open) -->
+    <section class="section" id="karma" aria-label="Karma (Viveka Audit)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Karma — Viveka Audit</span>
+          <h2 class="h2">Five questions that reveal the direct truth.</h2>
+        </header>
+
+        <p class="muted">
+          Click to reveal. Multiple can stay open—because real clarity is layered.
+        </p>
+
+        <div class="audit" role="list">
+          <details class="audit__item" role="listitem">
+            <summary>1) Am I acting from evidence—or emotion?</summary>
+            <div class="audit__body">
+              <p class="audit__label">Direct Truth</p>
+              <p class="muted">If a decision cannot be explained calmly, it is not ready to be executed.</p>
+            </div>
+          </details>
+
+          <details class="audit__item" role="listitem">
+            <summary>2) Is this risk within my real capacity—not my confidence?</summary>
+            <div class="audit__body">
+              <p class="audit__label">Direct Truth</p>
+              <p class="muted">Capacity is proven in drawdowns. Confidence is borrowed from narratives.</p>
+            </div>
+          </details>
+
+          <details class="audit__item" role="listitem">
+            <summary>3) What would I do if this position moved against me by 20%?</summary>
+            <div class="audit__body">
+              <p class="audit__label">Direct Truth</p>
+              <p class="muted">If the plan is unclear under stress, the position is oversized today.</p>
+            </div>
+          </details>
+
+          <details class="audit__item" role="listitem">
+            <summary>4) Is my time-horizon aligned with the instrument’s nature?</summary>
+            <div class="audit__body">
+              <p class="audit__label">Direct Truth</p>
+              <p class="muted">Mismatch creates forced exits. Alignment creates endurance.</p>
+            </div>
+          </details>
+
+          <details class="audit__item" role="listitem">
+            <summary>5) Would I recommend this to someone I deeply care about?</summary>
+            <div class="audit__body">
+              <p class="audit__label">Direct Truth</p>
+              <p class="muted">If advice cannot be given with personal accountability, it isn’t advice.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7) Nyasa — Seal of Quality SVG -->
+    <section class="section section--alt" id="nyasa" aria-label="Nyasa (Sacred Trust)">
+      <div class="container reveal">
+        <header class="section__head">
+          <span class="kicker">Nyasa — Sacred Trust</span>
+          <h2 class="h2">Boutique by choice—because trust needs closeness.</h2>
+        </header>
+
+        <div class="grid grid--2">
+          <div class="copy">
+            <p>
+              In large organizations, growth often depends on the rapid acquisition of new accounts. This can tilt advice toward
+              volume rather than value.
+            </p>
+            <p>
+              At Vivek Financial, your welfare is the center of every decision. Because we are a smaller setup, we have the
+              emotional involvement required to navigate market cycles with you personally.
+            </p>
+          </div>
+
+          <div class="card card--visual" aria-hidden="true">
+            <!-- Seal of Quality -->
+            <svg class="svg seal" viewBox="0 0 520 260" role="img">
+              <circle class="seal__ring" cx="260" cy="120" r="82"></circle>
+              <circle class="seal__ring2" cx="260" cy="120" r="64"></circle>
+
+              <!-- simple “check” mark -->
+              <path class="seal__check" d="M230 120 L252 142 L292 102"></path>
+
+              <!-- rays -->
+              <g class="seal__rays">
+                <path d="M260 18 L260 44"></path>
+                <path d="M260 196 L260 222"></path>
+                <path d="M158 120 L132 120"></path>
+                <path d="M388 120 L414 120"></path>
+                <path d="M188 48 L206 66"></path>
+                <path d="M332 174 L350 192"></path>
+                <path d="M332 66 L350 48"></path>
+                <path d="M188 192 L206 174"></path>
+              </g>
+
+              <text x="260" y="238" text-anchor="middle" class="seal__label">SEAL OF QUALITY</text>
+            </svg>
+
+            <div class="caption">Small enough to care. Disciplined enough to endure.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8) Satya — Dark footer -->
+    <footer class="footer" id="satya" aria-label="Satya (Footer)">
+      <div class="container reveal">
+        <div class="footer__top">
+          <div>
+            <h2 class="footer__title">Vivek Financial Focus Limited</h2>
+            <p class="footer__meta">Registered Office: [Address]</p>
+            <p class="footer__meta">SEBI Reg No: [Number] &nbsp;|&nbsp; NSE/BSE Member</p>
+            <p class="footer__meta">Phone: [Phone] &nbsp;|&nbsp; Email: [Email]</p>
+          </div>
+
+          <div class="footer__actions">
+            <a class="footer__btn footer__btn--ghost" href="#" aria-label="Client Login (placeholder)">Client Login</a>
+            <a class="footer__btn footer__btn--ghost" href="#" aria-label="Back Office Login (placeholder)">Back Office Login</a>
+            <a class="footer__btn footer__btn--primary" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+          </div>
+        </div>
+
+        <nav class="footer__links" aria-label="Compliance links">
+          <a href="#">Risk Disclosure</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">SEBI SCORES</a>
+          <a href="#">Investor Charter</a>
+        </nav>
+
+        <blockquote class="footer__quote">
+          “Truth is what remains when the noise is filtered out.”
+        </blockquote>
+
+        <p class="footer__fine">
+          © <span id="year"></span> Vivek Financial Focus Limited. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
