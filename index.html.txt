@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+  <!-- Your CSS file -->
   <link rel="stylesheet" href="./styles.css" />
 </head>
 
@@ -90,21 +91,15 @@
           </div>
 
           <div class="card card--visual" aria-hidden="true">
-            <!-- Prism: chaotic lines enter; one steady exits -->
             <svg class="svg prism" viewBox="0 0 560 260" role="img">
               <path class="prism__chaos" d="M30 60 C150 10, 180 110, 260 70" />
               <path class="prism__chaos" d="M30 125 C145 95, 185 165, 260 125" />
               <path class="prism__chaos" d="M30 190 C160 245, 190 145, 260 175" />
-
               <polygon class="prism__shape" points="280,50 370,130 280,210 200,130" />
-
               <path class="prism__steady" d="M370 130 C420 130, 470 130, 530 130" />
               <circle class="prism__dot" cx="530" cy="130" r="4"></circle>
             </svg>
-
-            <div class="caption">
-              Chaotic narratives → disciplined decision-making.
-            </div>
+            <div class="caption">Chaotic narratives → disciplined decision-making.</div>
           </div>
         </div>
       </div>
@@ -123,8 +118,6 @@
             <svg class="svg pillar" viewBox="0 0 240 260" role="img">
               <rect class="pillar__col" x="98" y="28" rx="10" ry="10" width="44" height="190"></rect>
               <rect class="pillar__base" x="70" y="218" rx="10" ry="10" width="100" height="18"></rect>
-
-              <!-- subtle flow lines -->
               <path class="pillar__flow" d="M18 72 C60 48, 92 94, 140 68 C172 50, 196 74, 222 62" />
               <path class="pillar__flow" d="M18 120 C72 96, 98 144, 142 122 C176 104, 196 130, 222 116" />
               <path class="pillar__flow" d="M18 168 C66 150, 106 194, 150 172 C182 156, 196 182, 222 168" />
@@ -218,7 +211,7 @@
       </div>
     </section>
 
-    <!-- 6) Karma — Viveka Audit (5 questions, multi-open) -->
+    <!-- 6) Karma — Viveka Audit (5 multi-open questions) -->
     <section class="section" id="karma" aria-label="Karma (Viveka Audit)">
       <div class="container reveal">
         <header class="section__head">
@@ -226,9 +219,7 @@
           <h2 class="h2">Five questions that reveal the direct truth.</h2>
         </header>
 
-        <p class="muted">
-          Click to reveal. Multiple can stay open—because real clarity is layered.
-        </p>
+        <p class="muted">Click to reveal. Multiple can stay open—because real clarity is layered.</p>
 
         <div class="audit" role="list">
           <details class="audit__item" role="listitem">
@@ -295,15 +286,10 @@
           </div>
 
           <div class="card card--visual" aria-hidden="true">
-            <!-- Seal of Quality -->
             <svg class="svg seal" viewBox="0 0 520 260" role="img">
               <circle class="seal__ring" cx="260" cy="120" r="82"></circle>
               <circle class="seal__ring2" cx="260" cy="120" r="64"></circle>
-
-              <!-- simple “check” mark -->
               <path class="seal__check" d="M230 120 L252 142 L292 102"></path>
-
-              <!-- rays -->
               <g class="seal__rays">
                 <path d="M260 18 L260 44"></path>
                 <path d="M260 196 L260 222"></path>
@@ -314,17 +300,15 @@
                 <path d="M332 66 L350 48"></path>
                 <path d="M188 192 L206 174"></path>
               </g>
-
               <text x="260" y="238" text-anchor="middle" class="seal__label">SEAL OF QUALITY</text>
             </svg>
-
             <div class="caption">Small enough to care. Disciplined enough to endure.</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 8) Satya — Dark footer -->
+    <!-- 8) Satya — Footer -->
     <footer class="footer" id="satya" aria-label="Satya (Footer)">
       <div class="container reveal">
         <div class="footer__top">
@@ -353,13 +337,12 @@
           “Truth is what remains when the noise is filtered out.”
         </blockquote>
 
-        <p class="footer__fine">
-          © <span id="year"></span> Vivek Financial Focus Limited. All rights reserved.
-        </p>
+        <p class="footer__fine">© <span id="year"></span> Vivek Financial Focus Limited. All rights reserved.</p>
       </div>
     </footer>
   </main>
 
+  <!-- Your JS file -->
   <script src="./script.js"></script>
 </body>
 </html>
